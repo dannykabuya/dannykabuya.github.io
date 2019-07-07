@@ -48,7 +48,7 @@ p {
   text-align: center;
   font-size: 15px;
 }
-.gridlayout1 {
+.grid-layout1 {
   margin: 15px 50px;
   padding-top: 1%;
   float: left;
@@ -56,9 +56,8 @@ p {
   grid-template-columns: 1.35fr 1fr;
   grid-column-gap: 180px;
 }
-.rightcolumn1 img {
+.right-column1 img {
   border-radius: 100%;
-
 }
 
 h2 {
@@ -79,13 +78,21 @@ img {
   padding-left: 0px;
 }
 
-.gridlayout2 {
-  margin: 15px 50px;
+.grid-layout2 {
+  color: antiquewhite;
+  font-size: 25px;
+  margin: 75px 50px;
   padding-top: 1%;
   float: left;
   display: grid;
   grid-template-columns: 1.25fr 1fr;
   grid-column-gap: 200px;
+}
+.left-colunm2 {
+  color: antiquewhite;
+}
+.my-pic {
+  border-radius: 8%;
 }
 
 h4 {
