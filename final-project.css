@@ -53,8 +53,12 @@ p {
   padding-top: 1%;
   float: left;
   display: grid;
-  grid-template-columns: 1.25fr 1fr;
-  grid-column-gap: 200px;
+  grid-template-columns: 1.35fr 1fr;
+  grid-column-gap: 180px;
+}
+.rightcolumn1 img {
+  border-radius: 100%;
+
 }
 
 h2 {
@@ -104,7 +108,7 @@ h5 {
 
 
 .footer {
-  height: 40px;
+  height: 100px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -113,9 +117,26 @@ h5 {
   background-color: #76742C;
   text-align: center;
 }
-
+.cell-contact {
+  text-align: center;
+  margin-top: 5px;
+}
+.yahoo-contact {
+  float: left;
+  margin-top: 13px;
+  margin-left: 46%;
+  font-size: 1.7em;
+  color: black;
+}
+.facebook-contact {
+  float: left;
+  margin-top: 9px;
+  margin-left: 3%;
+  font-size: 2.1em;
+}
 .footer-text {
+  text-float: bottom;
   text-align: center;
   font-size: 15px;
-  padding-top: 10px;
+  margin-top: 55px;
 }
