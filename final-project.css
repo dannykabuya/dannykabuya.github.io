@@ -88,9 +88,33 @@ img {
   grid-template-columns: 1.25fr 1fr;
   grid-column-gap: 200px;
 }
-.left-colunm2 {
+
+.grid-layout3 {
+  text-align: center;
   color: antiquewhite;
+  margin-top: 280px;
+  margin-left: 44%;
+  float: left;
+  display: grid;
+  grid-template-columns: 1.25fr;
+
 }
+
+.grid-layout4 {
+  text-align: center;
+  color: white;
+  margin-top: 120px;
+  margin-left: 45%;
+  float: left;
+  display: grid;
+  grid-template-columns: 1.25fr;
+}
+.grid-layout4 ul li a{
+  color: white;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
 .my-pic {
   border-radius: 8%;
 }
@@ -113,9 +137,8 @@ h5 {
   padding-left: 0px;
 }
 
-
 .footer {
-  height: 100px;
+  height: 85px;
   position: fixed;
   left: 0;
   bottom: 0;
@@ -130,20 +153,26 @@ h5 {
 }
 .yahoo-contact {
   float: left;
-  margin-top: 13px;
-  margin-left: 46%;
-  font-size: 1.7em;
+  margin-top: 9px;
+  margin-left: 44.5%;
+  font-size: 1.3em;
   color: black;
 }
 .facebook-contact {
   float: left;
-  margin-top: 9px;
+  margin-top: 7px;
   margin-left: 3%;
-  font-size: 2.1em;
+  font-size: 1.7em;
+}
+.slack-contact {
+  float: left;
+  margin-top: 7px;
+  margin-left: 3%;
+  font-size: 1.7em;
 }
 .footer-text {
   text-float: bottom;
   text-align: center;
   font-size: 15px;
-  margin-top: 55px;
+  margin-top: 42px;
 }
